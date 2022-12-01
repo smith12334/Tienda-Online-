@@ -1,0 +1,83 @@
+body {
+    font-size: 20;
+    margin: 0;
+    background: rgb(16, 150, 4);
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+    
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    background: burlywood;
+    color: white;
+}
+
+header div{
+    background: magenta;
+}
+
+.headerlogo {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: orange;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.headernav {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: orange;
+   
+}
+.headernav a {
+    text-decoration: none;
+    color: white;
+}
+.contactnav{
+    width: 25%;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    border-radius: 20px 20px 20px 20px;
+    background: black;
+}
+.contactnav:hover{
+    background-color: rgba(0, 0, 255, 0.342);
+}
+@media (min-width:480px) /* cuando es menor a 480 cmabia el color del body (depende del orden cascada)
+esos cambios se pueden ver de manera facil enel responsive de google chrome en(inspeccionar elemento)*/
+{
+   body
+   {
+    background-color: steelblue;
+   }
+}
+@media (min-width:768px) /* cuando es menor a 768 cmabia el color del body (dependiendo el orden de la
+cascada) esos cambios se pueden ver de manera facil enel responsive de google chrome en(inspeccionar elemento)*/
+{
+   body
+   {
+    background-color: greenyellow;
+   }
+}
+@media (min-width:1024px) /* cuando es menor a 1024 cmabia el color del body (dependiendo el orden de la
+cascada) esos cambios se pueden ver de manera facil enel responsive de google chrome en(inspeccionar elemento)*/
+{
+   body
+   {
+    background-color: red;
+   }
+}
+
+
+
+
